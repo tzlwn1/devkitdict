@@ -1,0 +1,45 @@
+{
+    "files.associations": {
+        "lvos.h": "c",
+        "lvos_type.h": "c",
+        "upgrade_basic.h": "c",
+        "upgrade_schedule_kern.h": "c"
+    },
+    "http.proxySupport": "off",
+    "http.proxyStrictSSL": false,
+    "kunpeng.remote.ssh.vmachineinfo": [
+        {
+            "label": "**.**.**.**",
+            "ip": "**.**.**.**",
+            "port": "22",
+            "user": "root",
+            "workspace": "/home/workspace" /*工作目录*/
+        }
+    ],
+    "kunpeng.remote.ssh.privatekeypath": "C:\\Users\\w00445630\\.ssh\\id_rsa",
+    "kunpeng.remote.ssh.clientpath": "D:\\Program Files\\ssh",
+    "editor.detectIndentation": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "kunpeng.func",
+                "settings": {
+                    "foreground": "#28a745"
+                }
+            },
+            {
+                "scope": "kunpeng.intrinsics",
+                "settings": {
+                    "foreground": "#28a745"
+                }
+            }
+        ]
+    },
+    "it.remote.debug.pluginPath": "c:\\Users\\qwx5321959\\.vscode\\extensions\\cloud-ai.it-remote-debug-0.4.4",
+    "kp-plugin.scan.types": [
+        "1",
+        "2",
+        "3",
+        "4"
+    ]
+}

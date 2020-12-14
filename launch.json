@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug st_demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "./bin/unit_tests", /*运行编译二进制*/
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${command:remotessh.remoteworkspace}/build",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "pipeTransport": {
+                "pipeCwd": "",
+                "pipeProgram": "${command:remotessh.sshclientpath}",
+                "pipeArgs": [
+                    "-p",
+                    "${command:remotessh.remoteport}",
+                    "${command:remotessh.remoteuser}@${command:remotessh.remoteip}"
+                ],
+                "debuggerPath": "/usr/bin/gdb"
+            },
+            "sourceFileMap": {
+                "${command:remotessh.remoteworkspace}": "${workspaceRoot}"
+            },
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+        }
+    ]
+}
