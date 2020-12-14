@@ -25,8 +25,8 @@
                 "focus": false,
                 "panel": "shared"
             },
-            "label": "gtest_compile", /*任务名称*/
-            "command": "mkdir build;source /etc/profile;cd build;cmake ..;cmake --build .", /*编译命令，相对路径*/
+            "label": "gtest_compile", /*任务名称，请按实际配置*/
+            "command": "mkdir build;source /etc/profile;cd build;cmake ..;cmake --build .", /*编译命令，相对路径，请按实际配置*/
             "problemMatcher": {
                 "owner": "cpp",
                 "fileLocation": [

@@ -13,11 +13,11 @@
             "ip": "**.**.**.**",
             "port": "22",
             "user": "root",
-            "workspace": "/home/workspace" /*工作目录*/
+            "workspace": "/home/workspace" /*工作目录，请按实际路径配置*/
         }
     ],
-    "kunpeng.remote.ssh.privatekeypath": "C:\\Users\\w00445630\\.ssh\\id_rsa",
-    "kunpeng.remote.ssh.clientpath": "D:\\Program Files\\ssh",
+    "kunpeng.remote.ssh.privatekeypath": "C:\\Users\\.ssh\\id_rsa", /*示例：私钥路径，请按实际路径配置*/
+    "kunpeng.remote.ssh.clientpath": "D:\\Program Files\\ssh", /*示例：ssh可执行文件路径，请按实际路径配置*/
     "editor.detectIndentation": false,
     "editor.tokenColorCustomizations": {
         "textMateRules": [

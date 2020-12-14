@@ -5,7 +5,7 @@
             "name": "debug st_demo",
             "type": "cppdbg",
             "request": "launch",
-            "program": "./bin/unit_tests", /*运行编译二进制*/
+            "program": "./bin/unit_tests", /*运行编译二进制，请按实际配置*/
             "args": [],
             "stopAtEntry": true,
             "cwd": "${command:remotessh.remoteworkspace}/build",
